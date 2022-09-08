@@ -48,19 +48,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item pe-5">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Book a session</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Report a case</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./share-a-story.html">Share a story</a>
-            </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown pe-5">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -68,14 +59,35 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Partner with us
+                Services
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Book a session</a></li>
+                <li><a class="dropdown-item" href="#">Report a case </a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="./share-a-story.html"
+                    >Share a story</a
+                  >
                 </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown pe-4">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Talktomee
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./contact-us.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Partner with Us</a></li>
               </ul>
             </li>
           </ul>
@@ -164,37 +176,27 @@
     <!--end login area-->
 
     <!--start footer-->
-
-    <footer class="bg-primary">
-      <div id="page-content vh-100 bg-primary ">
-        <div class="container text-center bg-cover">
-          <div class="row justify-content-center">
-            <div class="search-text">
-              <div class="container">
-                <div class="row text-center">
-                  <div class="form">
-                    <div class="pt-1 pb-3 news">
-                      Subscribe to Our Newsletter
-                    </div>
-                    <form id="search-form" class="form-search form-horizontal">
-                      <input
-                        type="text"
-                        class="input-search"
-                        placeholder="Enter your email"
-                      />
-                      <button type="submit" class="btn-search">
-                        Subscribe
-                      </button>
-                    </form>
-                  </div>
-                </div>
+    <footer class="newsletter bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="content">
+              <h2 class="text-light">SUBSCRIBE TO OUR NEWSLETTER</h2>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <span class="input-group-btn">
+                  <button class="btn" type="submit">Subscribe Now</button>
+                </span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
-
     <!--end footer-->
 
     <!--bootstrap js-->
